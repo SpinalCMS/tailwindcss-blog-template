@@ -1,0 +1,202 @@
+<!doctype html>
+
+<html lang="en" class="font-sans text-base font-normal">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title>A Tailwind CSS-based SaaS blog template</title>
+  <meta name="description" content="A SaaS blog template built with Tailwind CSS">
+  <meta name="author" content="Spinal developers">
+  <link href="/dist/output.css" rel="stylesheet">
+</head>
+
+<body class="selection:bg-gray-300 selection:text-gray-800">
+  <main class="max-w-6xl px-2 pb-12 mx-auto">
+    <div class="flex flex-col py-20 gap-2 md:flex-row md:py-32">
+      <h1 class="text-4xl font-extrabold tracking-tight text-black md:w-1/2 md:text-7xl">
+        SaaS Blog
+      </h1>
+
+      <p class="text-2xl font-light text-black md:w-1/2 md:text-3xl/10">
+        Insights, ideas and behind the scenes of running profitable SaaS
+      </p>
+    </div>
+
+    <!-- Start of articles list -->
+    <ul>
+      <!-- Highlight article-->
+      <li class="flex flex-col gap-6 col-span-6 col-span-12 md:flex-row md:gap-4 lg:gap-8 group/article">
+        <a href="post.html" class="block w-full group-first/article:md:w-1/2 group-first/article:lg:w-2/3">
+          <img src="https://unsplash.com/photos/Cu1UQPMURcU/download?ixid=M3wxMjA3fDB8MXxzZWFyY2h8N3x8cmV2b2x1dGlvbnxlbnwwfHx8fDE2OTg5NDQ4NzJ8MA&force=true&w=640" class="object-cover w-full rounded-xl min-h-[16rem] md:max-h-[24rem]" />
+        </a>
+
+        <a href="post.html" class="w-full md:w-1/2 lg:w-1/3">
+          <p class="text-lg font-normal text-gray-900">
+            Introduction to SaaS
+          </p>
+
+          <h2 class="mt-1 text-2xl font-extrabold tracking-tight text-gray-900 md:mt-2 md:text-4xl ease-in-out duration-200 delay-75 group-hover/article:text-blue-500">
+            The Rise of SaaS: Revolutionizing Business Software
+          </h2>
+
+          <p class="mt-2 text-lg text-gray-600 md:mt-4">
+            Explore how SaaS companies have transformed the software industry and why businesses are increasingly turning to cloud-based solutions for their operational needs.
+          </p>
+
+          <div class="flex flex-row mt-4 gap-3">
+            <img src="https://images.unsplash.com/photo-1494790108377-be9c29b29330?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80" class="w-6 h-6 rounded-full shrink-0" />
+
+            <small class="text-sm font-light text-gray-500">
+              Sarah Johnson
+            </small>
+          </div>
+        </a>
+      </li>
+
+
+      <!-- Grid of articles -->
+      <div class="mt-20 grid grid-cols-12 gap-6 md:mt-32 md:gap-10">
+        <!-- first article -->
+        <li class="flex flex-col gap-6 col-span-12 sm:[&:nth-child(1)]:col-span-6 sm:[&:nth-child(2)]:col-span-6 sm:col-span-4 md:gap-4 group/article">
+          <a href="post.html" class="w-full">
+            <img src="https://unsplash.com/photos/JVD3XPqjLaQ/download?ixid=M3wxMjA3fDB8MXxzZWFyY2h8Mnx8Y29tcGFyZXxlbnwwfHx8fDE3MDAwMjI0OTZ8MA&force=true&w=1920" class="w-full object-cover rounded-xl min-h-[16rem] md:max-h-[24rem]" />
+
+            <p class="mt-4 text-lg font-normal text-gray-900">
+              Introduction to SaaS
+            </p>
+
+            <h2 class="mt-1 text-2xl font-extrabold tracking-tight text-gray-900 md:mt-2 md:text-3xl ease-in-out duration-200 delay-75 group-hover/article:text-blue-500">
+              SaaS vs. Traditional Software: Which Is Right for Your Business?
+            </h2>
+
+            <p class="mt-2 text-lg text-gray-600 md:mt-4">
+              This article helps readers understand the key differences between SaaS and traditional software, offering insights to make informed decisions about which solution suits their business best.
+            </p>
+
+            <div class="flex flex-row mt-4 gap-3">
+              <img src="https://images.unsplash.com/photo-1519244703995-f4e0f30006d5?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80" class="w-6 h-6 rounded-full shrink-0" />
+
+              <small class="text-sm font-light text-gray-500">
+                John Smith
+              </small>
+            </div>
+          </a>
+        </li>
+
+
+        <!-- second article -->
+        <li class="flex flex-col gap-6 col-span-12 sm:[&:nth-child(1)]:col-span-6 sm:[&:nth-child(2)]:col-span-6 sm:col-span-4 md:gap-4 group/article">
+          <a href="post.html" class="w-full">
+            <img src="https://unsplash.com/photos/9JU2CKqtw0M/download?ixid=M3wxMjA3fDB8MXxzZWFyY2h8M3x8dG9vbHN8ZW58MHx8fHwxNzAwMDMzNjcwfDA&force=true&w=1920" class="w-full object-cover rounded-xl min-h-[16rem] md:max-h-[24rem]" />
+
+            <p class="mt-4 text-lg font-normal text-gray-900">
+              SaaS Tools and Implementation
+            </p>
+
+            <h2 class="mt-1 text-2xl font-extrabold tracking-tight text-gray-900 md:mt-2 md:text-3xl ease-in-out duration-200 delay-75 group-hover/article:text-blue-500">
+              Top 10 Must-Have SaaS Tools for Small Businesses
+            </h2>
+
+            <p class="mt-2 text-lg text-gray-600 md:mt-4">
+              Discover a curated list of essential SaaS tools that can streamline operations and boost productivity for small businesses. This article provides insights into top solutions for various business needs.
+            </p>
+
+            <div class="flex flex-row mt-4 gap-3">
+              <img src="https://images.unsplash.com/photo-1517841905240-472988babdf9?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80" class="w-6 h-6 rounded-full shrink-0" />
+
+              <small class="text-sm font-light text-gray-500">
+                Emily Davis
+              </small>
+            </div>
+          </a>
+        </li>
+
+
+        <!-- third and beyond article -->
+        <li class="flex flex-col gap-6 col-span-12 sm:[&:nth-child(1)]:col-span-6 sm:[&:nth-child(2)]:col-span-6 sm:col-span-4 md:gap-4 group/article">
+          <a href="post.html" class="w-full">
+            <img src="https://unsplash.com/photos/_AdUs32i0jc/download?ixid=M3wxMjA3fDB8MXxzZWFyY2h8Mnx8Z3Jvd3RoJTIwbWluZHNldHxlbnwwfHx8fDE3MDAwMjY3MDF8MA&force=true&w=1920" class="w-full object-cover rounded-xl min-h-[16rem] md:max-h-[24rem]" />
+
+            <p class="mt-4 text-lg font-normal text-gray-900">
+              SaaS Tools and Implementation
+            </p>
+
+            <h2 class="mt-1 text-2xl font-extrabold tracking-tight text-gray-900 md:mt-2 md:text-3xl ease-in-out duration-200 delay-75 group-hover/article:text-blue-500">
+              Scaling Your Startup: How SaaS Empowers Growth
+            </h2>
+
+            <p class="mt-2 text-lg text-gray-600 md:mt-4">
+              Learn how SaaS applications can enable startups to scale efficiently, save costs, and remain agile while adapting to the ever-changing demands of a growing business.
+            </p>
+
+            <div class="flex flex-row mt-4 gap-3">
+              <img src="https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80" class="w-6 h-6 rounded-full shrink-0" />
+
+              <small class="text-sm font-light text-gray-500">
+                Michael Brown
+              </small>
+            </div>
+          </a>
+        </li>
+
+
+        <li class="flex flex-col gap-6 col-span-12 sm:[&:nth-child(1)]:col-span-6 sm:[&:nth-child(2)]:col-span-6 sm:col-span-4 md:gap-4 group/article">
+          <a href="post.html" class="w-full">
+            <img src="https://unsplash.com/photos/3LVhSjCXRKc/download?ixid=M3wxMjA3fDB8MXxzZWFyY2h8Mnx8cHJvdGVjdGlvbnxlbnwwfHx8fDE3MDAwMzgyMDF8MA&force=true&w=1920" class="w-full object-cover rounded-xl min-h-[16rem] md:max-h-[24rem]" />
+
+            <p class="mt-4 text-lg font-normal text-gray-900">
+              SaaS Security and Compliance
+            </p>
+
+            <h2 class="mt-1 text-2xl font-extrabold tracking-tight text-gray-900 md:mt-2 md:text-3xl ease-in-out duration-200 delay-75 group-hover/article:text-blue-500">
+              Data Security in SaaS: Protecting Your Business and Customers
+            </h2>
+
+            <p class="mt-2 text-lg text-gray-600 md:mt-4">
+              Explore the importance of data security in SaaS applications, best practices for safeguarding sensitive information, and how SaaS companies are addressing growing cybersecurity concerns.
+            </p>
+
+            <div class="flex flex-row mt-4 gap-3">
+              <img src="https://images.unsplash.com/photo-1438761681033-6461ffad8d80?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80" class="w-6 h-6 rounded-full shrink-0" />
+
+              <small class="text-sm font-light text-gray-500">
+                Jessica Martinez
+              </small>
+            </div>
+          </a>
+        </li>
+
+
+        <li class="flex flex-col gap-6 col-span-12 sm:[&:nth-child(1)]:col-span-6 sm:[&:nth-child(2)]:col-span-6 sm:col-span-4 md:gap-4 group/article">
+          <a href="post.html" class="w-full">
+            <img src="https://unsplash.com/photos/Cu1UQPMURcU/download?ixid=M3wxMjA3fDB8MXxzZWFyY2h8N3x8cmV2b2x1dGlvbnxlbnwwfHx8fDE2OTg5NDQ4NzJ8MA&force=true&w=640" class="w-full object-cover rounded-xl min-h-[16rem] md:max-h-[24rem]" />
+
+            <p class="mt-4 text-lg font-normal text-gray-900">
+              SaaS Trends and Future Insights
+            </p>
+
+            <h2 class="mt-1 text-2xl font-extrabold tracking-tight text-gray-900 md:mt-2 md:text-3xl ease-in-out duration-200 delay-75 group-hover/article:text-blue-500">
+              SaaS Trends to Watch in 2024
+            </h2>
+
+            <p class="mt-2 text-lg text-gray-600 md:mt-4">
+              Stay ahead of the curve by delving into the latest trends in the SaaS industry. This article discusses emerging technologies, market dynamics, and predictions for the future of SaaS companies.
+            </p>
+
+            <div class="flex flex-row mt-4 gap-3">
+              <img src="https://images.unsplash.com/photo-1506794778202-cad84cf45f1d?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80" class="w-6 h-6 rounded-full shrink-0" />
+
+              <small class="text-sm font-light text-gray-500">
+                David Wilson
+              </small>
+            </div>
+          </a>
+        </li>
+
+      </div>
+    </ul>
+    <!-- End of articles list -->
+  </main>
+</body>
+</html>
